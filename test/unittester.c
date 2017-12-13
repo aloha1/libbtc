@@ -83,37 +83,37 @@ int main()
 {
     btc_ecc_start();
 
-    u_run_test(test_sha_256);
-    u_run_test(test_sha_512);
-    u_run_test(test_sha_hmac);
-    u_run_test(test_utils);
-    u_run_test(test_cstr);
-    u_run_test(test_buffer);
-    u_run_test(test_serialize);
+    // u_run_test(test_sha_256);
+    // u_run_test(test_sha_512);
+    // u_run_test(test_sha_hmac);
+    // u_run_test(test_utils);
+    // u_run_test(test_cstr);
+    // u_run_test(test_buffer);
+    // u_run_test(test_serialize);
 
-    u_run_test(test_memory);
-    u_run_test(test_random);
-    u_run_test(test_bitcoin_hash);
-    u_run_test(test_base58check);
-    u_run_test(test_aes);
+    // u_run_test(test_memory);
+    // u_run_test(test_random);
+    // u_run_test(test_bitcoin_hash);
+    // u_run_test(test_base58check);
+    // u_run_test(test_aes);
 
-    u_run_test(test_bip32);
-    u_run_test(test_ecc);
-    u_run_test(test_vector);
-    u_run_test(test_tx_serialization);
-    u_run_test(test_invalid_tx_deser);
-    u_run_test(test_tx_sighash);
-    u_run_test(test_tx_negative_version);
-    u_run_test(test_block_header);
-    u_run_test(test_script_parse);
-    u_run_test(test_script_op_codeseperator);
+    // u_run_test(test_bip32);
+    // u_run_test(test_ecc);
+    // u_run_test(test_vector);
+    // u_run_test(test_tx_serialization);
+    // u_run_test(test_invalid_tx_deser);
+    // u_run_test(test_tx_sighash);
+    // u_run_test(test_tx_negative_version);
+    // u_run_test(test_block_header);
+    // u_run_test(test_script_parse);
+    // u_run_test(test_script_op_codeseperator);
 
     u_run_test(test_eckey);
 
     u_run_test(test_txref);
 
 #ifdef WITH_WALLET
-    //u_run_test(test_wallet);
+    u_run_test(test_wallet);
 #endif
 
 #ifdef WITH_TOOLS

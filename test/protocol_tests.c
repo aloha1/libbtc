@@ -14,7 +14,7 @@
 #include <btc/protocol.h>
 #include "utest.h"
 
-#include <event2/util.h>
+//#include <event2/util.h>
 
 void test_protocol()
 {
